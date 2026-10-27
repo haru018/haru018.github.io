@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haru018 | Game Programmer</title>
+  <meta name="description" content="Haru018 のポートフォリオ（制作中）">
+  <meta property="og:title" content="Haru018 | Game Programmer">
+  <meta property="og:description" content="Haru018 のポートフォリオ（制作中）">
+  <meta property="og:image" content="Images/game.png">
+  <link rel="icon" href="Images/icon.png">
+
+  <style>
+    :root {
+      --bg: #12141c;
+      --card: #1c1f2b;
+      --text: #e8eaf2;
+      --sub: #9aa0b5;
+      --accent: #5ac8fa;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 24px 16px 48px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    a { color: var(--accent); }
+
+    section { margin-top: 40px; }
+
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 12px;
+      padding-left: 10px;
+      border-left: 4px solid var(--accent);
+    }
+
+    /* 名前・肩書き */
+    .profile {
+      text-align: center;
+    }
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .profile h1 {
+      margin: 12px 0 0;
+      font-size: 1.8rem;
+    }
+    .profile .title {
+      margin: 0;
+      color: var(--sub);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 4px 14px;
+      border: 1px solid var(--sub);
+      border-radius: 999px;
+      color: var(--sub);
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+    }
+
+    /* ゲーム紹介 */
+    .game {
+      background: var(--card);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .game img {
+      display: block;
+      width: 100%;
+    }
+    .game-body { padding: 16px; }
+    .game-body h3 { margin: 0 0 4px; }
+    .game-body p { margin: 0 0 12px; color: var(--sub); }
+
+    .button {
+      display: inline-block;
+      padding: 8px 20px;
+      background: var(--accent);
+      color: #000;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* リンク一覧 */
+    .links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .links li { margin-bottom: 8px; }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header class="profile">
+      <img src="Images/icon.png" alt="Haru018 のアイコン">
+      <h1>Haru018</h1>
+      <p class="title">Game Programmer</p>
+      <span class="badge">UNDER CONSTRUCTION</span>
+    </header>
+
+    <section>
+      <h2>Game</h2>
+      <div class="game">
+        <img src="Images/game.png" alt="Arsenal Stigma のスクリーンショット">
+        <div class="game-body">
+          <h3>Arsenal Stigma</h3>
+          <p>流動的なビルドをテーマにした2Dアクションローグライク！</p>
+          <!-- <a class="button" href="{{GAME_LINK_URL}}" target="_blank" rel="noopener">{{GAME_LINK_LABEL}}</a> -->
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <ul class="links">
+        <li>X: <a href="https://x.com/Haru_verd018" target="_blank" rel="noopener">Haru_verd018</a></li>
+        <li>GitHub: <a href="https://github.com/haru018" target="_blank" rel="noopener">haru018</a></li>
+        <li>Mail: <a href="mailto:haru_games18@outlook.com">haru_games18@outlook.com</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
